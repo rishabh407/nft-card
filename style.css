@@ -1,0 +1,131 @@
+*{
+      margin:0;
+      padding:0;
+      font-family: sans-serif;
+    }
+    body{
+      height: 100%;
+            padding:4rem 1.2rem;
+      background-color: hsl(216, 64%, 13%);
+    }
+    .secondimage img{
+      height:16rem;
+      border-radius: 1rem;
+      cursor: pointer;
+      width:100%;
+    }
+    .main{
+      padding:1.5rem;
+      background-color: hsl(215, 65%, 21%);
+      border-radius: 1rem;
+      width:85%;
+      margin: auto;
+    }
+    .nftcard{
+      display: flex;
+      flex-direction: column;
+      color:white;
+      gap:1rem;
+    }
+    .body{
+      display: flex;
+      flex-direction: column;
+      gap:1.3rem;
+    }
+    .body h2{
+           font-size: 1.3rem;
+           font-weight: 550;
+                 letter-spacing: 1px;
+                 
+    }
+    .body h2:hover{
+      color: aqua;
+      cursor: pointer;
+    }
+    .body p{
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+      color: hsl(215, 33%, 74%);
+    }
+    .value{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .val1,.val2{
+      display: flex;
+      gap:0.4rem;
+      flex-direction: row;
+    }
+    .val1 p{
+      color: cyan;
+      font-weight:600;
+    }
+    .val1 img{
+      height:1rem;
+    }
+    .line{
+      background-color: rgb(139, 134, 134);
+      height:1px;
+      opacity: 0.2;
+    }
+    .footer{
+      display: flex;
+      flex-direction: row;
+      gap:1rem;
+      align-items: center;
+      /* justify-content: center; */
+    }
+    .footer img{
+      height:2rem;
+      border:1px solid white;
+      border-radius: 50%;
+    }
+    p span{
+            color: hsl(215, 33%, 74%);
+    }
+    .span2{
+      color:white;
+      cursor: pointer;
+    }
+    .head{
+      position: relative;
+      cursor: pointer;
+    }
+     .span2:hover{
+            color: aqua;
+    }
+    .firstimage{
+      position:absolute;
+      height:16rem;
+      width:100%;
+      background-color: rgba(68, 213, 213,0.6);
+    }
+    .hide{
+      display: none;
+    }
+    .firstimage img{
+      position: absolute;
+    top:45%;
+      height:2rem;
+      width:2rem;
+      left:45%;
+    }
+    @media (min-width:426px)
+    {
+        body{
+            padding:10%;
+        }
+        .main{
+            width: 40%;
+            margin: auto;
+        }
+    }
+    @media (min-width:1024px)
+    {
+        .main{
+            width:30%;
+            margin: auto;
+        }
+    }
